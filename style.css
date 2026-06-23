@@ -1,1 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
 
+body{
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:700px;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+
+.flashcard{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+#question{
+    margin-bottom:15px;
+}
+
+#answer{
+    color:#444;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.hidden{
+    display:none;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin:5px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+#showBtn{
+    background:#28a745;
+    color:white;
+}
+
+#prevBtn,#nextBtn{
+    background:#007bff;
+    color:white;
+}
+
+#editBtn{
+    background:orange;
+    color:white;
+}
+
+#deleteBtn{
+    background:red;
+    color:white;
+}
+
+.form-container{
+    background:white;
+    margin-top:20px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-container h3{
+    margin-bottom:15px;
+}
+
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+#addBtn{
+    width:100%;
+    background:#6f42c1;
+    color:white;
+}
+
+#counter{
+    margin-top:15px;
+    font-weight:bold;
+}
